@@ -1,0 +1,79 @@
+:root {
+    --bg-primary: #F5F5F5;
+    --bg-secondary: #cee8ff;
+
+    --text-primary: #333333;
+    --text-secondary: #5c5c5c;
+
+    --primary-color: #005B99;
+    --secondary-color: #4e88ca;
+
+    --btn-bg: #4e88ca;
+    --btn-bg-hover: #005b99;
+    --btn-text: #f5f5f5;
+
+    --netral-color: #333333;
+    --border-bottom: #5c5c5c;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+    font-family: 'poppins';
+}
+
+body {
+    background-color: var(--bg-primary);
+}
+
+/* reusable class */
+.tittle-heading .sub-tittle {
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: .1rem;
+    color: var(--text-secondary);
+}
+
+.tittle-heading .tittle {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+.tittle-heading .tittle span {
+    color: var(--primary-color);
+}
+/* reusable class */
+
+/* header - start */
+.navbar a {
+    font-size: 1rem;
+}
+
+.navbar a:hover {
+    color: var(--primary-color) !important;
+    transition: .3s;
+}
+/* header - finish */
+
+/* portfolio - start */
+.portfolio {
+    padding-top: 2rem;
+}
+
+.box .card-port {
+    margin-top: 1.5rem;
+}
+
+.box .card-port .card img {
+    border-radius: 1rem;
+}
+
+.box .card-port .card {
+    border-radius: 1rem;
+    border: 1px solid var(--primary-color);
+    box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, .4);
+}

@@ -1,0 +1,284 @@
+:root {
+    --bg-primary: #F5F5F5;
+    --bg-secondary: #cee8ff;
+
+    --text-primary: #333333;
+    --text-secondary: #5c5c5c;
+
+    --primary-color: #005B99;
+    --secondary-color: #4e88ca;
+
+    --btn-bg: #4e88ca;
+    --btn-bg-hover: #005b99;
+    --btn-text: #f5f5f5;
+
+    --netral-color: #333333;
+    --border-bottom: #5c5c5c;
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+    font-family: 'poppins';
+}
+
+body {
+    background-color: var(--bg-primary);
+}
+
+/* <<<<<<<<<< Reusable - Start >>>>>>>>>> */
+.btn {
+    background-color: var(--btn-bg);
+    color: var(--btn-text);
+}
+
+.btn:hover {
+    background-color: var(--btn-bg-hover);
+    color: var(--btn-text);
+    transition: .3s;
+}
+
+.tittle-heading .sub-tittle {
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: .1rem;
+    color: var(--text-secondary);
+}
+
+.tittle-heading .tittle {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+.tittle-heading .tittle span {
+    color: var(--primary-color);
+}
+/* <<<<<<<<<< Reusable - Finish >>>>>>>>>> */
+
+
+/* <<<<<<<<<< Header - Start >>>>>>>>>> */
+.navbar {
+    background-color: var(--bg-primary);
+}
+
+.navbar .navbar-brand {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+.navbar .navbar-brand span {
+    color: var(--primary-color);
+}
+
+.collapse .navbar-nav .nav-link {
+    font-size: 1.1rem;
+    color: var(--text-primary);
+    margin: 0 1rem;
+}
+
+.collapse .navbar-nav .nav-link:hover {
+    color: var(--primary-color);
+    transition: .3s;
+}
+/* <<<<<<<<<< Header - Finish >>>>>>>>>> */
+
+/* <<<<<<<<<< Home - Start >>>>>>>>>> */
+.home {
+    padding-top: 5rem;
+    background-color: var(--bg-secondary);
+}
+
+.hero-tagline {
+    padding-top: 1rem;
+}
+
+.hero-tagline h3 {
+    font-size: 1.3rem;
+    letter-spacing: .1rem;
+    color: var(--text-primary);
+}
+
+.hero-tagline h1 {
+    font-size: 2.2rem;
+    font-weight: 600;
+    margin-top: -.1rem;
+    color: var(--primary-color);
+}
+
+.hero-tagline h2 {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.hero-tagline h2 span {
+    font-weight: 600;
+    color: var(--secondary-color);
+}
+
+.hero-tagline p {
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--text-secondary);
+}
+/* <<<<<<<<<< Home - Finish >>>>>>>>>> */
+
+/* <<<<<<<<<< About - Start >>>>>>>>>> */
+.about {
+    padding-top: 5rem;
+}
+
+.about-image img {
+    border: .2rem solid var(--primary-color);
+    border-radius: 1rem;
+}
+
+.about-text h3 {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: var(--primary-color);
+    margin-bottom: .5rem;
+}
+
+.about-text h3 span {
+    color: var(--text-primary);
+}
+
+.about-text p {
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--text-secondary);
+}
+
+.social-icons {
+    display: flex;
+}
+
+.social-icons i {
+    padding: .5rem;
+    margin: 0 .5rem 1rem;
+    border-radius: 50%;
+    color: var(--btn-text);
+    background-color: var(--btn-bg);
+    cursor: pointer;
+}
+
+.social-icons i:hover {
+    background-color: var(--btn-bg-hover);
+    transition: .3s;
+}
+/* <<<<<<<<<< About - Finish >>>>>>>>>> */
+
+/* <<<<<<<<<< Service - Start >>>>>>>>>> */
+.service {
+    padding-top: 5rem;
+}
+
+.card {
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: var(--bg-secondary);
+    margin: .5rem;
+}
+
+.card:hover{
+    background-color: var(--primary-color);
+    transition: .3s;
+}
+
+.card i {
+    font-size: 4rem;
+    color: var(--primary-color);
+    margin: 2rem auto;
+}
+
+.card:hover i{
+    color: #ffffff;
+    transition: .3s;
+}
+
+.card h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+.card:hover h3{
+    color: #ffffff;
+    transition: .3s;
+}
+
+.card p {
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--text-secondary);
+}
+
+.card:hover p{
+    color: #ffffff;
+    transition: .3s;
+}
+
+/* skill content */
+.skill-content {
+    padding-top: 3rem;
+}
+
+.skill-img .col-lg-8 img{
+    margin: .1rem;
+}
+/* skill content */
+/* <<<<<<<<<< Service - Finish >>>>>>>>>> */
+
+/* <<<<<<<<<< Portfolio - Start >>>>>>>>>> */
+.portfolio {
+    padding-top: 5rem;
+}
+
+.card-project {
+    background-color: var(--bg-secondary);
+    border: 2px solid var(--text-secondary);
+    overflow: hidden;
+    border-radius: 1rem;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.5);
+}
+
+/* <<<<<<<<<< Portfolio - Finish >>>>>>>>>> */
+
+/* <<<<<<<<<< Contact - Start >>>>>>>>>> */
+.contact {
+    padding-top: 5rem;
+}
+
+.tittle {
+    color: var(--text-primary);
+}
+
+.tittle span {
+    color: var(--primary-color);
+}
+
+.d-flex i {
+    color: var(--primary-color);
+    padding-right: 1rem;
+    margin-top: .1rem;
+}
+
+/* <<<<<<<<<< Contact - Finish >>>>>>>>>> */
+
+/* <<<<<<<<<< Footer - Start >>>>>>>>>> */
+footer .container-fluid {
+    background-color: var(--bg-secondary);
+    margin-top: -.5rem;
+}
+
+footer p {
+    color: var(--text-secondary);
+}
+/* <<<<<<<<<< Footer - Finish >>>>>>>>>> */

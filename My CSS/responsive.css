@@ -1,0 +1,269 @@
+/* Xtra-Small devices (landscape phones, 320px and up) */
+@media screen and (min-width: 320px) {
+
+    /* <<<<<<<<<< Header - Start >>>>>>>>>> */
+    .collapse .navbar-nav .nav-link {
+        margin: 0.5rem 0;
+    }
+    /* <<<<<<<<<< Header - Finish >>>>>>>>>> */
+
+    /* <<<<<<<<<< Home - Start >>>>>>>>>> */
+    .hero-tagline {
+        padding-top: 0;
+        text-align: center;
+    }
+
+    .hero-tagline h3 {
+        font-size: 1.1rem;
+        letter-spacing: .1rem;
+    }
+
+    .hero-tagline h1 {
+        font-size: 1.7rem;
+        font-weight: 600;
+    }
+
+    .hero-tagline h2 {
+        font-size: 1.3rem;
+    }
+
+    .hero-tagline p {
+        font-size: .9rem;
+    }
+    /* <<<<<<<<<< Home - Finish >>>>>>>>>> */
+
+    /* <<<<<<<<<< About - Start >>>>>>>>>> */
+    .about-text {
+        text-align: start;
+        margin-top: 1rem;
+    }
+
+    .about-text h3 {
+        font-size: 1.3rem;
+    }
+
+    .about-text p {
+        font-size: .9rem;
+    }
+
+    .social-icons {
+        justify-content: start;
+    }
+    /* <<<<<<<<<< About - Finish >>>>>>>>>> */
+
+    /* <<<<<<<<<< Service - Start >>>>>>>>>> */
+    /* <<<<<<<<<< Service - Finish >>>>>>>>>> */
+
+    /* <<<<<<<<<< Portfolio - Start >>>>>>>>>> */
+    /* <<<<<<<<<< Portfolio - Finish >>>>>>>>>> */
+
+    /* <<<<<<<<<< Contact - Start >>>>>>>>>> */
+    /* <<<<<<<<<< Contact - Finish >>>>>>>>>> */
+
+    /* <<<<<<<<<< Footer - Start >>>>>>>>>> */
+    /* <<<<<<<<<< Footer - Finish >>>>>>>>>> */
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media screen and (min-width: 576px) {
+
+    /* <<<<<<<<<< Header - Start >>>>>>>>>> */
+    /* <<<<<<<<<< Header - Finish >>>>>>>>>> */
+
+    /* <<<<<<<<<< Home - Start >>>>>>>>>> */
+    .hero-tagline h3 {
+        font-size: 1.3rem;
+        letter-spacing: .1rem;
+    }
+
+    .hero-tagline h1 {
+        font-size: 1.9rem;
+    }
+
+    .hero-tagline h2 {
+        font-size: 1.4rem;
+    }
+
+    .hero-tagline p {
+        font-size: 1rem;
+    }
+    /* <<<<<<<<<< Home - Finish >>>>>>>>>> */
+
+    /* <<<<<<<<<< About - Start >>>>>>>>>> */
+    /* <<<<<<<<<< About - Finish >>>>>>>>>> */
+
+    /* <<<<<<<<<< Service - Start >>>>>>>>>> */
+    /* <<<<<<<<<< Service - Finish >>>>>>>>>> */
+
+    /* <<<<<<<<<< Portfolio - Start >>>>>>>>>> */
+    /* <<<<<<<<<< Portfolio - Finish >>>>>>>>>> */
+
+    /* <<<<<<<<<< Contact - Start >>>>>>>>>> */
+    /* <<<<<<<<<< Contact - Finish >>>>>>>>>> */
+
+    /* <<<<<<<<<< Footer - Start >>>>>>>>>> */
+    /* <<<<<<<<<< Footer - Finish >>>>>>>>>> */
+    
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media screen and (min-width: 768px) {
+
+    /* <<<<<<<<<< Header - Start >>>>>>>>>> */
+    /* <<<<<<<<<< Header - Finish >>>>>>>>>> */
+
+    /* <<<<<<<<<< Home - Start >>>>>>>>>> */
+    .hero-tagline h3 {
+        font-size: 1.4rem;
+        letter-spacing: .1rem;
+    }
+
+    .hero-tagline h1 {
+        font-size: 2.1rem;
+    }
+
+    .hero-tagline h2 {
+        font-size: 1.5rem;
+    }
+
+    .hero-tagline p {
+        font-size: 1.1rem;
+    }
+    /* <<<<<<<<<< Home - Finish >>>>>>>>>> */
+
+    /* <<<<<<<<<< About - Start >>>>>>>>>> */
+    .about-text h3 {
+        font-size: 1.5rem;
+    }
+
+    .about-text p {
+        font-size: 1rem;
+    }
+    /* <<<<<<<<<< About - Finish >>>>>>>>>> */
+
+    /* <<<<<<<<<< Service - Start >>>>>>>>>> */
+    /* <<<<<<<<<< Service - Finish >>>>>>>>>> */
+
+    /* <<<<<<<<<< Portfolio - Start >>>>>>>>>> */
+    /* <<<<<<<<<< Portfolio - Finish >>>>>>>>>> */
+
+    /* <<<<<<<<<< Contact - Start >>>>>>>>>> */
+    /* <<<<<<<<<< Contact - Finish >>>>>>>>>> */
+
+    /* <<<<<<<<<< Footer - Start >>>>>>>>>> */
+    /* <<<<<<<<<< Footer - Finish >>>>>>>>>> */
+
+}
+
+ /* Large devices (desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+
+    /* <<<<<<<<<< Header - Start >>>>>>>>>> */
+    .collapse .navbar-nav .nav-link {
+        font-size: 1.1rem;
+        color: var(--text-primary);
+        margin: 0 .8rem;
+    }
+    /* <<<<<<<<<< Header - Finish >>>>>>>>>> */
+
+    /* <<<<<<<<<< Home - Start >>>>>>>>>> */
+    .hero-tagline {
+        padding-top: 1rem;
+    }
+    
+    .hero-tagline h3 {
+        font-size: 1.3rem;
+        letter-spacing: .1rem;
+        color: var(--text-primary);
+    }
+    
+    .hero-tagline h1 {
+        font-size: 2.2rem;
+        font-weight: 500;
+        margin-top: -.1rem;
+    }
+    
+    .hero-tagline h1 span {
+        font-weight: 600;
+        color: var(--primary-color);
+    }
+    
+    .hero-tagline h2 {
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+    
+    .hero-tagline h2 span {
+        font-weight: 600;
+        color: var(--secondary-color);
+    }
+    
+    .hero-tagline p {
+        font-size: 1rem;
+        font-weight: 400;
+        color: var(--text-secondary);
+    }
+    /* <<<<<<<<<< Home - Finish >>>>>>>>>> */
+
+    /* <<<<<<<<<< About - Start >>>>>>>>>> */
+    .about-text {
+        text-align: start;
+        margin-top: 0;
+    }
+    
+
+    .social-icons {
+        justify-content: start;
+    }
+    /* <<<<<<<<<< About - Finish >>>>>>>>>> */
+
+    /* <<<<<<<<<< Service - Start >>>>>>>>>> */
+    /* <<<<<<<<<< Service - Finish >>>>>>>>>> */
+
+    /* <<<<<<<<<< Portfolio - Start >>>>>>>>>> */
+    /* <<<<<<<<<< Portfolio - Finish >>>>>>>>>> */
+
+    /* <<<<<<<<<< Contact - Start >>>>>>>>>> */
+    /* <<<<<<<<<< Contact - Finish >>>>>>>>>> */
+
+    /* <<<<<<<<<< Footer - Start >>>>>>>>>> */
+    /* <<<<<<<<<< Footer - Finish >>>>>>>>>> */
+
+}
+
+ /* X-Large devices (large desktops, 1200px and up) */
+@media screen and (min-width: 1200px) {
+
+    /* <<<<<<<<<< Header - Start >>>>>>>>>> */
+    /* <<<<<<<<<< Header - Finish >>>>>>>>>> */
+
+    /* <<<<<<<<<< Home - Start >>>>>>>>>> */
+    .home {
+        padding-top: 3rem;
+    }
+
+    .hero-tagline h1 {
+        font-size: 3rem;
+        font-weight: 600;
+        margin-top: -.1rem;
+        color: var(--primary-color);
+    }
+    /* <<<<<<<<<< Home - Finish >>>>>>>>>> */
+
+    /* <<<<<<<<<< About - Start >>>>>>>>>> */
+    /* <<<<<<<<<< About - Finish >>>>>>>>>> */
+
+    /* <<<<<<<<<< Service - Start >>>>>>>>>> */
+    /* <<<<<<<<<< Service - Finish >>>>>>>>>> */
+
+    /* <<<<<<<<<< Portfolio - Start >>>>>>>>>> */
+    /* <<<<<<<<<< Portfolio - Finish >>>>>>>>>> */
+
+    /* <<<<<<<<<< Contact - Start >>>>>>>>>> */
+    /* <<<<<<<<<< Contact - Finish >>>>>>>>>> */
+
+    /* <<<<<<<<<< Footer - Start >>>>>>>>>> */
+    /* <<<<<<<<<< Footer - Finish >>>>>>>>>> */
+
+}
